@@ -6,7 +6,7 @@ RUN apt-get update \
 	&& apt-get clean
 
 # install listener service
-RUN wget https://swdl.bluejeans.com/relay/listenerservice/listenerservice-1.3.0-deb.zip -O temp.zip \
+RUN wget https://swdl.bluejeans.com/relay/listenerservice/listenerservice-2.0.0-deb.zip -O temp.zip \
  	&& unzip temp.zip -x "docs/*" \
  	&& rm temp.zip \
  	&& dpkg -i --force-all listenerservice*.deb

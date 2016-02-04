@@ -12,6 +12,13 @@ Running
 docker run --env-file=.env --rm -it lox24/bluejeansrelay
 ```
 
+Developing
+----------
+
+```bash
+docker build --tag lox24/bluejeansrelay .
+```
+
 Example env file:
 -----------------
 
